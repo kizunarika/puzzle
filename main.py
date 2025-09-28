@@ -155,8 +155,6 @@ class Main:
             'line': pygame.image.load("Graphics/line.png").convert_alpha(),
             'active line': pygame.image.load("Graphics/active line.png").convert_alpha(),
             'head': pygame.image.load("Graphics/head.png").convert_alpha(),
-            'active head': pygame.image.load("Graphics/active head.png").convert_alpha(),
-            # lt
             'corner': pygame.image.load("Graphics/corner.png").convert_alpha(),
             'active corner': pygame.image.load("Graphics/active corner.png").convert_alpha(),
             'point': pygame.image.load("Graphics/point.png").convert_alpha(),
@@ -374,3 +372,4 @@ class Main:
 if __name__ == "__main__":
     main = Main()
     main.run()
+
