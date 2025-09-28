@@ -266,12 +266,10 @@ class Main:
                     y = int(next_cell.pos.y)
 
             if (y, x) != (int(positions[-1].y), int(positions[-1].x)):
-                print("Lose")
                 return False
         self.status["Win"] = True
         self.status["playing"] = False
         self.status["waiting"] = True
-        print("Win")
         return True
 
     def draw(self):
@@ -372,4 +370,5 @@ class Main:
 if __name__ == "__main__":
     main = Main()
     main.run()
+
 
